@@ -19,7 +19,7 @@ const Chat = ({ location }) => {
     const [users, setUsers] = useState('');
     const [messages, setMessages] = useState([]);
 
-    const ENDPOINT = 'https://chat-application.wazebase.vercel.app'; 
+    const ENDPOINT = 'https://chat-app-server-side-x2.herokuapp.com/'; 
     useEffect(() => {
         const {name,room } = queryString.parse(location.search);
 
